@@ -6,6 +6,6 @@ A beginner's guide to the C++ language
 
 To contribute sent pull requests here.
 
-[**Enter**](https://makulik.github.io/C-PlusPlus-for-dummies/TOC.md)
+[**Enter**](https://github.com/makulik/C-PlusPlus-for-dummies/blob/master/TOC.md)
 
 
