@@ -55,10 +55,22 @@ Let's dissect this a bit further regarding the syntax you see:
     basic_ostream<char,Traits>& operator<<( basic_ostream<char,Traits>& os, 
                                             const signed char* s );
     ```
+    
+    and `const char[13]` decays to a `const signed char*` pointer. Thus this function is called.
  8. **The `std::endl`**  
     Is a so called [I/O manipulator](http://en.cppreference.com/w/cpp/io/manip). It renders a line ending at it's `std::ostream&` parameter, and forces the (_buffered_) stream to commit the outputs to a physical device (like a terminal).
     
-    
+----------------------------------------------
+
+After reading this, I almost could hear you scream (maybe even completely new to terms of programming at all):
+
+## Are you serious?? Simple starters?  
+_"You use a bunch of confusing terms, completely beyond my knowledge!"_
+
+The good thing for you to know now is:  
+ - It simply works out of the box, and using the C++ standard library can keep it portable
+ - You can concentrate about your custom data structures and how best to represent these by means of using C++ standard library containers and Dynamic memory Management.
+ 
 ----------------------------------------------
 
 <sup>1)</sup><sub>Most code examples can be explored without having a c++ compiler toolchain or IDE installed at your local machine. Feel free to fork from these example codes, and play around with them using [Wandbox](https://wandbox.org)</sub>
