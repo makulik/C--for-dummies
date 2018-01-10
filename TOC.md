@@ -16,5 +16,5 @@ All in all, my intention is to develop a new didactical concept how to approach 
 
 ## TOC
 
- 1. [A bit of C++ history](https://makulik.github.io/C-PlusPlus-for-dummies/1_C++History.md)
- 2. [Simple Starters](https://makulik.github.io/C-PlusPlus-for-dummies/2_SimpleStarters.md)
+ 1. [A bit of C++ history](./1_C++History)
+ 2. [Simple Starters](./2_SimpleStarters)
