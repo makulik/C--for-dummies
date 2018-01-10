@@ -40,4 +40,4 @@ A major number of significant improvements and new language features were introd
   - [`std::filesystem`](http://en.cppreference.com/w/cpp/filesystem) (c++17)
   - _monad_ like types as [`std::optional`](http://en.cppreference.com/w/cpp/utility/optional), [`std::variant`](http://en.cppreference.com/w/cpp/utility/variant), [`std::any`](http://en.cppreference.com/w/cpp/utility/any) (c++17)
 
-
+[2 Simple Starters >>](./2_SimpleStarters)
