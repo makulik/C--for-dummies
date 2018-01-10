@@ -14,4 +14,30 @@ One of the strengths vs other languages C++ inherited from C until nowadays, is 
 
 The original C++98 ISO standard evolved with a number of improvements and additions over the recent decades:
 
+| Year | C++ Standard       | Informal Name |
+|------|--------------------|:-------------:|
+| 1998 | ISO/IEC 14882:1998 | c++98         |
+| 2003 | ISO/IEC 14882:2003 | c++03         |
+| 2011 | [ISO/IEC 14882:2011](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf) | c++11         |
+| 2014 | [ISO/IEC 14882:2014](https://github.com/cplusplus/draft/blob/master/papers/n4140.pdf?raw=true) | c++14         |
+| 2017 | [ISO/IEC 14882:2017](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf) | c++17         |
+| 2020 | [ISO/IEC 14882:2020](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4713.pdf) | c++20         |
+
+A major number of significant improvements and new language features were introduced with the c++11 standard, specifically
+
+ - The [`auto`](http://en.cppreference.com/w/cpp/language/auto) keyword for automatic type deduction
+ - Range based loop syntax [`for(auto item : container) {}`](http://en.cppreference.com/w/cpp/language/range-for)
+ - Variadic templates (parameter packs) [`template<typename ...Types>`](http://en.cppreference.com/w/cpp/language/parameter_pack)
+ - Threading support [`std::thread`](http://en.cppreference.com/w/cpp/memory/weak_ptr)
+ - Dynamic memory management: [`std::unique_ptr`](http://en.cppreference.com/w/cpp/memory/unique_ptr), [`std::shared_ptr`](http://en.cppreference.com/w/cpp/memory/shared_ptr), [`std::weak_ptr`]()
+ - Date and Time utilities: [`std::chrono`](http://en.cppreference.com/w/cpp/chrono)
+ - and many more ...
+ 
+ One frequent source of new standard proposals and standardized libraries is the [`boost` c++ libraries project](http://www.boost.org/). Beyond standards you can use these to cover up lacking features with many pre C++11 compilers.
+ 
+ And there's more to come in the future (established) standards, like 
+ 
+  - [`std::filesystem`](http://en.cppreference.com/w/cpp/filesystem) (c++17)
+  - _monad_ like types as [`std::optional`](http://en.cppreference.com/w/cpp/utility/optional), [`std::variant`](http://en.cppreference.com/w/cpp/utility/variant), [`std::any`](http://en.cppreference.com/w/cpp/utility/any) (c++17)
+
 
