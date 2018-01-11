@@ -1,6 +1,10 @@
-[<< 1 A bit of C++ History](./1_C++History)
+| <- [1 A bit of C++ History](./1_C++History) |  [TOC](./TOC)  | [3. Basic language features](./3_BasicFeatures) -> |
+|---------------------------------------------|----------------|----------------------------------------------------|
+
 
 # 2 Simple Starters
+
+<a name="2_1"/>
 
 ## 2.1 The C++ _Hello World!_ example dissected
 
@@ -13,7 +17,7 @@ int main() {
 }
 ```
 
-[**Live Demo**](https://wandbox.org/permlink/AURk59CGTaIBB3oP)<sup>1</sup>
+[**Live Demo**](https://wandbox.org/permlink/AURk59CGTaIBB3oP)<sup><a href="#footnote_1">1</a></sup>
 
 Let's dissect this a bit further regarding the syntax you see:
 
@@ -66,7 +70,7 @@ Let's dissect this a bit further regarding the syntax you see:
 
 After reading this, I almost could hear you scream (maybe even completely new to terms of programming at all):
 
-### Are you serious?? _"Simple starters"_?!?  
+***Are you serious?? _"Simple starters"_?!?  ***
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
 The good thing for you to know now is:  
@@ -78,10 +82,13 @@ There are two paths from here:
  1. You need to gather more knowledge about _programming_, _programming languages_ _data structures_ and _algorithms_ in general, before digging deeper into the concepts of any specific programming language
  2. You follow further, and just use the C++ language
  
+<a name="2_2"/>
+
 ## 2.2 The C++ _Hello Universe!_ example
 
 
  
 ----------------------------------------------
 
+<a name="footnote_1" />
 <sup>1)</sup><sub>Most code examples can be explored without having a c++ compiler toolchain or IDE installed at your local machine. Feel free to fork from these example codes, and play around with them using [Wandbox](https://wandbox.org)</sub>
