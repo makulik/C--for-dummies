@@ -1,6 +1,5 @@
-| <- [1 A bit of C++ History](./1_C++History) |  [TOC](./TOC)  | [3. Basic language features](./3_BasicFeatures) -> |
-|---------------------------------------------|----------------|----------------------------------------------------|
-
+| [1 A bit of C++ History ![[&lt;-]](./circled-left.png)](./1_C++History) | [TOC ![[\^]](./circled-up.png)](./TOC) | [3 Basic language features ![[->]](./circled-right.png)](./3_BasicFeatures) |
+|---|----------------------------------------|----------------------------------------------------------------------|
 
 # 2 Simple Starters
 
