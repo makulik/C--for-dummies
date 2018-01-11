@@ -68,6 +68,7 @@ After reading this, I almost could hear you scream (maybe even completely new to
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
 The good thing for you to know now is:  
+ - You should't bother too much about in depth understanding of that dissected syntax above, and how that works in detail
  - It simply works out of the box, and using the C++ standard library can keep it portable
  - You can concentrate about your custom data structures and how best to represent these by means of using C++ standard library containers and Dynamic memory Management.
  
