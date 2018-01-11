@@ -19,7 +19,7 @@ int main() {
 
 Let's dissect this a bit further regarding the syntax you see:
 
- 1. **Preprocessor Statements**
+ 1. **Preprocessor Statements**  
     All lines introduced with a `#` are handled by the [c/c++ precprocessor](http://en.cppreference.com/w/cpp/preprocessor). The `#include` statement specifically replaces it's occurrence with the complete text found in the file specified in `<file>` angle brackets or `"file"` quotes.  
     These files contain declarations, that are needed to properly resolve stuff that's mentioned in the following code lines.
  2. **The `main()` program entry point**  
