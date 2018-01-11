@@ -71,7 +71,7 @@ After reading this, I almost could hear you scream (maybe even completely new to
 **Are you serious?? _"Simple starters"_?!?**  
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
-The good thing for you to know now is:  
+The **good thing** for you to know now is:  
  - You should't bother too much about in depth understanding of that dissected syntax above, and how that works in detail
  - It simply works out of the box, and using the C++ standard library can keep it portable
  - You can concentrate about your custom data structures and how best to represent these by means of using C++ standard library containers and Dynamic memory Management.
@@ -84,7 +84,10 @@ There are two paths from here:
 
 ## 2.2 The C++ _Hello Universe!_ example
 
+To reach out someone particular with the message sent from the simple example requires some more.  
+Currently we have the `std::cout` object rendering some text at the terminal console.
 
+As mentioned above `std::cout` implements a specific _interface_, that allows to call the `operator<<()` overload.
  
 ----------------------------------------------
 
