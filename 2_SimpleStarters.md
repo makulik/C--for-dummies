@@ -46,7 +46,7 @@ Let's dissect this a bit further regarding the syntax you see:
     That's the _standard output_ binding you can use to give some feedback from your program.  
     Usually this enables you to output some text to a terminal, when your program is executed in that terminal.  
    [`std::cout`](http://en.cppreference.com/w/cpp/io/cout) is a global object introduced with the `iostream` header, that implements the [`std::ostream`](http://en.cppreference.com/w/cpp/io/basic_ostream) interface.
- 7. **... and what does the `<<`?**  
+ 7. **... and what does the `<<` do?**  
     This calls an [overloaded `operator<<()` function](http://en.cppreference.com/w/cpp/io/basic_ostream/operator_ltlt) with a signature like follows:
     ```c++
     template<typename T>
