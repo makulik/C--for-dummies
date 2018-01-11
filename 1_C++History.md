@@ -1,4 +1,4 @@
-[TOC ![[\^]](./circled-up.png)](./TOC) . [2 Simple Starters ![[->]](./circled-right.png)](./2_SimpleStarters)
+[TOC ![[\^]](./circled-up.png)](./TOC) - [2 Simple Starters ![[->]](./circled-right.png)](./2_SimpleStarters)
 
 # 1 A bit of C++ History
 
