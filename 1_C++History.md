@@ -1,4 +1,4 @@
-<table><tr>
+<table width="100%"><tr width="100%" border="0">
  <td> - </td>
  <td><a href="./TOC"><b>TOC</a></td>
  <td><a href="./2_SimpleStarters"><b>2 Simple Starters</a> -></td>
