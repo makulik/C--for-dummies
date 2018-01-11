@@ -1,6 +1,6 @@
 ## _Foreword_
 
-I always wondered how I could share my experience and knowledge about the c++ language best for beginners I met professionally.  
+I always wondered how I could share my experience and knowledge about the c++ language best for beginners with the language I met professionally.  
 Some of them seemed having been inoculated with some misconceptions of how to effectively use the C++ language, instead of giving 
 them the straight foraward usage of the standard library facilities.
 
@@ -11,10 +11,12 @@ pupils with compilcated concepts of memory management and usage of raw C-style p
 
 Also adepts coming from the Java or C# background are often confused about the real use cases for `new` in the C++ context.
 
-All in all, my intention is to develop a new didactical concept how to approach the C++ language in concise terms.
+All in all, my intention is to develop a new didactical concept how to approach the C++ language in concise terms.  
+To some degree I will presuppose the readers are familiar with some basic terms of programming, as there are fairly easier approaches to get the knowledge about structrured program flows and data structures than c++.
 
+--------------------------------------------------------------------------
 
-## TOC
+## Table of contents
 
  1. [A bit of C++ history](./1_C++History)  
   1.1. [The Origins](./1_C++History#1_1)
