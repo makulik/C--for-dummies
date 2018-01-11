@@ -31,7 +31,7 @@ Let's dissect this a bit further regarding the syntax you see:
     ```
     The parameters can be omitted in your definition, if you don't need to use them (as in the example above).  
     Also (unlike with any other typed function definitions), it's OK to omit the obligatory `return` statement in the `main()` function.
- 3. **Function Definitions**
+ 3. **Function Definitions**  
     A statement like 
     ```c++
     int function_name() { /* ...*/ }
