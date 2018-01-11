@@ -66,7 +66,7 @@ Let's dissect this a bit further regarding the syntax you see:
 
 After reading this, I almost could hear you scream (maybe even completely new to terms of programming at all):
 
-## Are you serious?? _"Simple starters"_?!?  
+### Are you serious?? _"Simple starters"_?!?  
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
 The good thing for you to know now is:  
@@ -78,7 +78,7 @@ There are two paths from here:
  1. You need to gather more knowledge about _programming_, _programming languages_ _data structures_ and _algorithms_ in general, before digging deeper into the concepts of any specific programming language
  2. You follow further, and just use the C++ language
  
-## 2.2 The _Hello C++ Universe_ example
+## 2.2 The C++ _Hello Universe!_ example
 
 
  
