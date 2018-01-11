@@ -68,7 +68,7 @@ Let's dissect this a bit further regarding the syntax you see:
 
 After reading this, I almost could hear you scream (maybe even completely new to terms of programming at all):
 
-***Are you serious?? _"Simple starters"_?!?  ***
+**Are you serious?? _"Simple starters"_?!?**  
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
 The good thing for you to know now is:  
