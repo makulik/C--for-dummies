@@ -2,7 +2,7 @@
 
 # 2 Simple Starters
 
-# 2.1 The C++ "Hello World!" example dissected
+## 2.1 The C++ _Hello World!_ example dissected
 
 As probably every programming language does, C++ provides a minimal, valid and complete program, that actually does something 
 
@@ -66,13 +66,21 @@ Let's dissect this a bit further regarding the syntax you see:
 
 After reading this, I almost could hear you scream (maybe even completely new to terms of programming at all):
 
-## Are you serious?? Simple starters?  
+## Are you serious?? _"Simple starters"_?!?  
 _"You use a bunch of confusing terms, completely beyond my knowledge!"_
 
 The good thing for you to know now is:  
  - You should't bother too much about in depth understanding of that dissected syntax above, and how that works in detail
  - It simply works out of the box, and using the C++ standard library can keep it portable
  - You can concentrate about your custom data structures and how best to represent these by means of using C++ standard library containers and Dynamic memory Management.
+ 
+There are two paths from here:
+ 1. You need to gather more knowledge about _programming_, _programming languages_ _data structures_ and _algorithms_ in general, before digging deeper into the concepts of any specific programming language
+ 2. You follow further, and just use the C++ language
+ 
+## 2.2 The _Hello C++ Universe_ example
+
+
  
 ----------------------------------------------
 
