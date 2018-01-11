@@ -16,5 +16,9 @@ All in all, my intention is to develop a new didactical concept how to approach 
 
 ## TOC
 
- 1. [A bit of C++ history](./1_C++History)
- 2. [Simple Starters](./2_SimpleStarters)
+ 1. [A bit of C++ history](./1_C++History)  
+  1.1. [The Origins](./1_C++History#1_1)
+  1.2. [Standardization](./1_C++History#1_2)
+ 2. [Simple Starters](./2_SimpleStarters)  
+  2.1. [The C++ _Hello World!_ example dissected](./2_SimpleStarters#2_1)  
+  2.2. [The C++ _Hello Universe!_ example](./2_SimpleStarters#2_2)
