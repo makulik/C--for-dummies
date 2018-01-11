@@ -1,5 +1,4 @@
-| [_back chapter title_ ![[&lt;-]](./circled-left.png)](./-back-ref) | [TOC ![[\^]](./circled-up.png)](./TOC) | [_forward chapter title_ ![[->]](./circled-right.png)](-forward-ref) |
-|---|----------------------------------------|----------------------------------------------------------------------|
+[![[&lt;-]](./circled-left.png) _back chapter title_](./-back-ref) | [TOC ![[\^]](./circled-up.png)](./TOC) | [_forward chapter title_ ![[->]](./circled-right.png)](-forward-ref)
 
 # _Chapter Title_
 
