@@ -1,13 +1,5 @@
 [TOC](./TOC)![^](./circled-up.png) | [2 Simple Starters](./2_SimpleStarters)![->](./circled-right.png)
 
-<table width="100%"><tr width="100%" border="0">
- <td> </td>
- <td><a href="./TOC"><b>TOC</b><img href="./circled-up.png" /></a></td>
- <td><a href="./2_SimpleStarters"><b>2 Simple Starters</a> -></td>
-</tr></table>
-
-![-](./circled-up.png)
-
 # 1 A bit of C++ History
 
 <a name="1_1"/>
