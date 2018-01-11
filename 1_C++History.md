@@ -1,5 +1,8 @@
-| - |  [TOC](./TOC)  | [2 Simple Starters](./2_SimpleStarters) -> |
-|---|----------------|--------------------------------------------|
+<table><tr>
+ <td> - </td>
+ <td><a href="./TOC"><b>TOC</a></td>
+ <td><a href="./2_SimpleStarters"><b>2 Simple Starters</a> -></td>
+</tr></table>
 
 # 1 A bit of C++ History
 
