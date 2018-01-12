@@ -114,9 +114,9 @@ Let's dissect further what was added there:
  3. **`std::getline(std::cin,username);`**  
     Takes the characters typed in at the terminal until the <kbd>ENTER</kbd> key is hit, and stores these in the `username` variable.
     
-The rest is much as from the _Hello World!_ example. A variable (like `username`) can be rendered as text output using the `std::ostream& operator<<(std::ostream&,T)` overload, and that will work for certain variable types (like e.g. `int`, `double`, `std::string`, etc.).
+ 4. The rest is much as from the _Hello World!_ example. A variable (like `username`) can be rendered as text output using the `std::ostream& operator<<(std::ostream&,T)` overload, and that will work for certain variable types (like e.g. `int`, `double`, `std::string`, etc.).
 
- 4. **So what's this `\` stuff used there?**  
+ 5. **So what's this `\` stuff used there?**  
     That's called _character literal escaping_. To render special characters like a line ending (`'\n'`), or even characters that are used to define _literals_, these can be represented in the code using a prefixed `\`.  
     Think about the literal delimiter characters `"` and `'` in particular. To represent these inbetween those delimiters, they need to be _escaped_ from being counted as delimter characters.
  
