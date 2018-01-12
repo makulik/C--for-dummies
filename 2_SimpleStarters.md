@@ -84,12 +84,45 @@ There are two paths from here:
 
 ## 2.2 The C++ _Hello Universe!_ example
 
-To reach out someone particular with the message sent from the simple example requires some more.  
-Currently we have the `std::cout` object rendering some text at the terminal console.
+The above example only interacts with _the world_ in one direction. Naturally the purpose of a program is to 
 
-As mentioned above `std::cout` implements a specific _interface_, that allows to call the `operator<<()` overload.
+ - take some _input_ ... 
+ - ... _process it_ ...
+ - ... and _produce_ some _output_.
+
+Here's a very simple example of one way to achieve that with C++ code:
+
+```c++
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string username;
+    std::cout << "Enter your name please: ";
+    std::getline(std::cin,username);
+    
+    std::cout << "\nHello Universe! My name is '" << username << '\'' << std::endl;
+}
+```
+
+Let's dissect further what was added there:
+
+ 1. **`#include <string>`**  
+    Another included C++ standard class declaration. [`std::string`](http://en.cppreference.com/w/cpp/string) is the class you use to deal with text data.
+ 2. **`std::string username;`**  
+    This is a _variable_ declaration. `username` is an object instance of the `std::string` class, wich is capable to store an arbitrary sequence of characters, just as they appeared in the in the `"Hello World!"` character literal.
+ 3. **`std::getline(std::cin,username);`**  
+    Takes the characters typed in at the terminal until the <kbd>ENTER</kbd> key is hit, and stores these in the `username` variable.
+    
+The rest is much as from the _Hello World!_ example. A variable (like `username`) can be rendered as text output using the `std::ostream& operator<<(std::ostream&,T)` overload, and that will work for certain variable types (like e.g. `int`, `double`, `std::string`, etc.).
+
+ 4. **So what's this `\` stuff used there?**  
+    That's called _character literal escaping_. To render special characters like a line ending (`'\n'`), or even characters that are used to define _literals_, these can be represented in the code using a prefixed `\`.  
+    Think about the literal delimiter characters `"` and `'` in particular. To represent these inbetween those delimiters, they need to be _escaped_ from being counted as delimter characters.
  
 ----------------------------------------------
 
 <a name="footnote_1" />
-<sup>1)</sup><sub>Most code examples can be explored without having a c++ compiler toolchain or IDE installed at your local machine. Feel free to fork from these example codes, and play around with them using [Wandbox](https://wandbox.org)</sub>
+
+<sup>1)</sup>
+Most code examples can be explored without having a c++ compiler toolchain or IDE installed at your local machine. Feel free to fork from these example codes, and play around with them using [Wandbox](https://wandbox.org)
