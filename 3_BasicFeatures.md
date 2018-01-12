@@ -22,9 +22,11 @@ Any code you write in C++ functions is translated by the C++ compiler to become 
 
 To call (execute) such function you write
 
+```c++
     <param1-type> par1 = "Hello!";
     <param1-type> par2 = 42;
     <return-type> result = <qualified_scope>::function_name(par1,par2);
+```
 
 <a name="3_2"/>
 
