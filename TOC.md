@@ -24,3 +24,7 @@ To some degree I will presuppose the readers are familiar with some basic terms 
  2. [Simple Starters](./2_SimpleStarters)  
   2.1. [The C++ _Hello World!_ example dissected](./2_SimpleStarters#2_1)  
   2.2. [The C++ _Hello Universe!_ example](./2_SimpleStarters#2_2)  
+ 3. [Some inevitable basics](./3_BasicFeatures)  
+  3.1. [Executable functions and function calls](./3_BasicFeatures#3_1)  
+  3.2. [Storing data in variables](./3_BasicFeatures#3_2)  
+  3.3. [Data Structures and collections](./3_BasicFeatures#3_3)  
